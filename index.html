@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transmisje TV</title>
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333; /* Ciemnoszare tło */
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 10; /* Aby elementy były nad cząsteczkami */
+}
+
+.logo {
+    width: 200px; /* Dostosuj szerokość logo */
+    margin-bottom: 20px;
+}
+
+.transmisje {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.transmisje li {
+    margin: 10px 0;
+}
+
+.transmisje a {
+    text-decoration: none;
+    color: #ff5733; /* Kolor tekstu linków */
+    font-size: 20px;
+}
+
+.transmisje a:hover {
+    text-decoration: underline;
+}
+
+.info-box {
+    background-color: #ff5733; /* Czerwony box */
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <img src="https://i.ibb.co/VY8RX6H/pobrane-7.png" alt="Logo" class="logo">
+        <h2>Wybierz transmisję:</h2>
+        <ul class="transmisje">
+            <li><a href="/fame">Fame MMA</a></li>
+            <li><a href="/clout">Clout MMA</a></li>
+        </ul>
+        <div class="info-box">
+            W związku z ostatnimi problemami ze streamami a dokładniej massreportowaniem ich przez losowe osoby oraz różne inne próby restreamowania na innych stronach, wprowadziliśmy dodatkowe metody weryfikacji przed wejściem na streama. Pozdrawiamy
+        </div>
+    </div>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.js loaded - callback');
+});
+    </script>
+</body>
+</html>
