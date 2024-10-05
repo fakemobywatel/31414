@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restreamy MMA</title>
+    <title>Streamek.PRO</title>
+    <script>
+        // Tablica zawierająca kolejne teksty tytułu
+        const titleFrames = ["Streamek.PRO", "StreamEk.PRO", "StReamek.PRO", "StreAmek.PRO"];
+        let currentFrame = 0;
+
+        // Funkcja do zmiany tytułu co 1 sekundę
+        function animateTitle() {
+            document.title = titleFrames[currentFrame]; // Zmieniamy tytuł
+            currentFrame = (currentFrame + 1) % titleFrames.length; // Kolejny tytuł w pętli
+        }
+
+        // Ustawiamy interwał zmieniający tytuł co 1 sekundę (1000 ms)
+        setInterval(animateTitle, 500);
+    </script>
     <style>
   * {
     margin: 0;
