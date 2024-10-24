@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd">
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
     <url>
         <loc>https://streamek.pro/</loc>
@@ -10,11 +10,9 @@
     </url>
     
     <url>
-        <loc>https://streamek.pro/prime-mma-10-gdzie-ogladac-za-darmo-karta-walk</loc>
-        <lastmod>2024-10-23</lastmod>
+        <loc>https://streamek.pro/prime-mma-10-gdzie-ogladac-za-darmo-karta-walk-online</loc>
+        <lastmod>2024-10-24</lastmod>
         <priority>1.0</priority>
     </url>
-    
-    <!-- Dodaj inne adresy URL tutaj -->
     
 </urlset>
